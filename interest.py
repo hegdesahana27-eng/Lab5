@@ -1,3 +1,4 @@
+import sys
 def simInt(principal,interest,time):
     return(principal* interest*time)/100
 if __name__ == "__main__":
