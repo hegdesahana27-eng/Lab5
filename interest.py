@@ -1,8 +1,8 @@
 def simInt(principal,interest,time):
     return(principal* interest*time)/100
 if __name__ == "__main__":
-    p=int(input("Enter principal amount"))
-    i=int(input("Enter interest"))
-    t=int(input("Enter time"))
+    p=int(input(sys.argv[1]))
+    i=int(input(sys.argv[2]))
+    t=int(input(sys.argv[3]))
 
     print("Simple interest:",simInt(p,i,t))
